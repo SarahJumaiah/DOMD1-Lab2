@@ -8,12 +8,6 @@ setInterval(() => {
     square.style.height = `${height}px`
 
 
-    let left = Math.random() * 200; 
-    square.style.width = `${left}px`
-    let right = Math.random() * 200; 
-    square.style.right = `${right}px`
-
-
     let colors = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
     square.style.backgroundColor = colors;
 
